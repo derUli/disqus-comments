@@ -1,0 +1,7 @@
+{
+   "id" : "disqus_for_articles",
+   "version" : "1.0",
+   "description" : "Use Disqus Comments for all Articles",
+   "categories" : ["social-media", "community"],
+   "compatible_from" : "2017.1"
+}
