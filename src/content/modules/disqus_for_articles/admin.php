@@ -11,15 +11,15 @@ function disqus_for_articles_admin() {
 <form id="disqus_settings"
 	action="<?php echo getModuleAdminSelfPath()?>" method="post">
 <?php
-
+	
 	csrf_token_html ();
 	?>
 <div class="label"><?php translate("disqus_id");?></div>
 	<div class="inputWrapper">
 		<input type="text" name="disqus_id"
 			value="<?php
-
-	Template::escape($disqus_id);
+	
+	Template::escape ( $disqus_id );
 	?>">
 	</div>
 	<p>
