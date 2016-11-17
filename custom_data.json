@@ -8,5 +8,15 @@
 	}
 ],
 	"manufacturer", "Ulrich Schmidt",
-        "compatible_with" : "2017.1"
+        "compatible_with" : "2017.1",
+	"screenshots" : [
+		{
+		"file" ; "/content/images/screenshots/disqus_for_articles/screenshot1.jpg",
+		"title" : "Beschreibungstext für Screenshot"
+		},
+	{
+		"file" ; "/content/images/screenshots/disqus_for_articles/screenshot2.jpg",
+		"title" : "noch ein Beschreibungstext für einen Screenshot"
+		}
+	]
 }
