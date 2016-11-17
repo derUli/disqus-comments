@@ -1,7 +1,7 @@
 <?php
 define ( "MODULE_ADMIN_HEADLINE", get_translation ( "disqus_for_articles" ) );
 define ( "MODULE_ADMIN_REQUIRED_PERMISSION", "disqus_for_articles_settings" );
-function disqus_for_articles_settings_admin() {
+function disqus_for_articles_admin() {
 	if (isset ( $_POST ["submit"] )) {
 		Settings::set ( "disqus_id", $_POST ["disqus_id"] );
 	}
