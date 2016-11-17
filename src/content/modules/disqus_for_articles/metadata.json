@@ -1,4 +1,6 @@
 {
+"source" : "extend",
+"name" : "disqus_for_articles",
 "version" : "1.0",
 "embed" : false,
 "custom_acl" : ["disqus_for_articles_settings"],
