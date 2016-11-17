@@ -1,4 +1,5 @@
 <?php
+
 if (get_type () == "article") {
 	?>
 <div id="disqus_thread"></div>
@@ -8,7 +9,7 @@ if (get_type () == "article") {
     var disqus_shortname = '<?php Template::escape(Settings::get("disqus_id"))?>'; // required: replace example with your forum shortname
 
     // The following are highly recommended additional parameters. Remove the slashes in front to use.
-    var disqus_identifier = '<?php echo md5(get_ID());?>';
+    var disqus_identifier = '<?php echo md5(Settings::get("password_salt").get_ID());?>';
     // var disqus_url = 'http://example.com/permalink-to-page.html';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
